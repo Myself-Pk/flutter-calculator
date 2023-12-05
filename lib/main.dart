@@ -212,7 +212,7 @@ class _PrathamCalculatorState extends State<PrathamCalculator> {
 
   void equalPressed() {
     String finaluserinput = userInput;
-    finaluserinput = userInput.replaceAll('%', '/100*');
+    finaluserinput = userInput.replaceAll('%', '/ 100 *');
     finaluserinput = userInput.replaceAll('x', '*');
 
     Parser p = Parser();
